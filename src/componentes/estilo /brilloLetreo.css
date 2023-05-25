@@ -1,0 +1,141 @@
+
+  .brillo-text {
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    animation: neon-glow 5s linear infinite;
+    animation-timing-function:cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    position: relative;
+    top:40px;
+    letter-spacing: 6px;
+    position: relative;
+    top:50px; 
+    left:40px;  
+    text-shadow: 0 0 10px rgb(247, 247, 247), 0 0 20px rgb(249, 249, 249), 0 0 30px #fff, 0 0 40px#194da2, 0 0 70px#194da2, 0 0 80px#194da2, 0 0 100px#194da2, 0 0 150px #194da2; 
+    z-index: 200; 
+    user-select: none;
+  }
+
+  @media screen and (max-width: 1200px){
+    .brillo-text {
+      font-family: 'roboto', sans-serif;
+      font-size: 15px;
+      color: #ffffff;
+      animation: neon-glow 5s linear infinite;
+      animation-timing-function:cubic-bezier(0.95, 0.05, 0.795, 0.035);
+      position: relative;
+      letter-spacing: 6px;
+      position: relative;
+      top:20px; 
+      left:20px;  
+      text-shadow: 0 0 10px rgb(247, 247, 247), 0 0 20px rgb(249, 249, 249), 0 0 30px #fff, 0 0 40px#194da2, 0 0 70px#194da2, 0 0 80px#194da2, 0 0 100px#194da2, 0 0 150px #194da2; 
+      z-index: 200; 
+      user-select: none;
+    }
+  }
+  @media screen and (max-width: 1200px){
+    .brillo-text {
+      font-family: 'roboto', sans-serif;
+      font-size: 15px;
+      color: #ffffff;
+      animation: neon-glow 5s linear infinite;
+      animation-timing-function:cubic-bezier(0.95, 0.05, 0.795, 0.035);
+      position: relative;
+      letter-spacing: 6px;
+      position: relative;
+      top:40px; 
+      left:0px;  
+      text-shadow: 0 0 10px rgb(247, 247, 247), 0 0 20px rgb(249, 249, 249), 0 0 30px #fff, 0 0 40px#194da2, 0 0 70px#194da2, 0 0 80px#194da2, 0 0 100px#194da2, 0 0 150px #194da2; 
+      z-index: 200; 
+      user-select: none;
+    }
+  }
+
+  
+  
+  @media screen and (max-width: 1000px){
+    .brillo-text {
+      font-family: 'roboto', sans-serif;
+      font-size: 15px;
+      color: #ffffff;
+      animation: neon-glow 5s linear infinite;
+      animation-timing-function:cubic-bezier(0.95, 0.05, 0.795, 0.035);
+      position: relative;
+      letter-spacing: 6px;
+      position: relative;
+      top:40px; 
+      left:-25px;  
+      text-shadow: 0 0 10px rgb(247, 247, 247), 0 0 20px rgb(249, 249, 249), 0 0 30px #fff, 0 0 40px#194da2, 0 0 70px#194da2, 0 0 80px#194da2, 0 0 100px#194da2, 0 0 150px #194da2; 
+      z-index: 200; 
+      user-select: none;
+    }
+  }
+  @media screen and (max-width: 909px){
+    .brillo-text {
+      font-family: 'roboto', sans-serif;
+      font-size: 15px;
+      color: #ffffff;
+      animation: neon-glow 5s linear infinite;
+      animation-timing-function:cubic-bezier(0.95, 0.05, 0.795, 0.035);
+      position: relative;
+      letter-spacing: 2px;
+      position: relative;
+      top:0px; 
+      left:-10px;  
+      text-shadow: 0 0 10px rgb(247, 247, 247), 0 0 20px rgb(249, 249, 249), 0 0 30px #fff, 0 0 40px#194da2, 0 0 70px#194da2, 0 0 80px#194da2, 0 0 100px#194da2, 0 0 150px #194da2; 
+      z-index: 200; 
+      user-select: none;
+      width:400px
+    }
+  }
+  @media screen and (max-width: 730px){
+    .brillo-text {
+      font-family: 'roboto', sans-serif;
+      font-size: 18px;
+      color: #ffffff;
+      animation: neon-glow 5s linear infinite;
+      animation-timing-function:cubic-bezier(0.95, 0.05, 0.795, 0.035);
+      position: relative;
+      letter-spacing: 2px;
+      position: relative;
+      top:0px; 
+      left:120px;  
+      text-shadow: 0 0 10px rgb(247, 247, 247), 0 0 20px rgb(249, 249, 249), 0 0 30px #fff, 0 0 40px#194da2, 0 0 70px#194da2, 0 0 80px#194da2, 0 0 100px#194da2, 0 0 150px #194da2; 
+      z-index: 200; 
+      user-select: none;
+      width:400px
+    }
+  }
+  @media screen and (max-width: 730px){
+    .brillo-text {
+      left:70px;
+    }}
+    @media screen and (max-width: 730px){
+      .brillo-text {
+        left:50px;
+      }}
+      @media screen and (max-width: 550px){
+        .brillo-text {
+          left:10px;
+          font-size: 13px;
+          letter-spacing: 4px;
+        }}
+        @media screen and (max-width: 414px){
+          .brillo-text {
+            left:-40px;
+            font-size: 13px;
+            letter-spacing: 4px;
+          }}
+
+          @media screen and (max-width: 393px){
+            .brillo-text {
+              left:-50px;
+              font-size: 13px;
+              letter-spacing: 4px;
+            }}
+          @media screen and (max-width: 375px){
+            .brillo-text {
+              left:-40px;
+              font-size: 13px;
+              letter-spacing: 3px;
+            }}

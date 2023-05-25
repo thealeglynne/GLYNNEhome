@@ -1,0 +1,1680 @@
+.slProdContenedor{
+   width: 1160px;
+   height: 500px;
+    position: relative;
+    left: 40px;
+    top:800px;
+    margin-left: 15px;
+}
+
+
+#col-md-1 {
+    background-color: transparent;
+    height: 500px;
+    left: 3px;
+    transition:1s;
+    transform-style: preserve-3d;
+    
+}
+#col-md-1:hover {
+    background-image: linear-gradient(to bottom, rgba(205, 81, 224, 0.118), rgba(60, 142, 183, 0.378), rgba(95, 93, 95, 0.119));
+    height: 495px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+    transform: scale(1.02);
+}
+#col-md-2 {
+    background-color:transparent;
+    height: 500px;
+    left: 3px;
+    transition:1s;
+
+    transform-style: preserve-3d;
+}
+#col-md-2:hover {
+    background-image: linear-gradient(to bottom, rgba(66, 171, 206, 0.419), rgba(221, 190, 222, 0.369), rgba(17, 16, 17, 0.19));
+    height: 495px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+
+     transform: scale(1.02);
+}
+#col-md-3 {
+    background-color: transparent;
+    height: 500px;
+    left: 3px;
+    transition:0.5s;
+}
+#col-md-3:hover {
+    background-image: linear-gradient(to bottom, rgba(205, 81, 224, 0.118), rgba(60, 142, 183, 0.378), rgba(95, 93, 95, 0.119));
+    height: 495px;
+    left: 3px;
+    transition:0.5s;
+   border-radius: 10px;
+   transform-style: preserve-3d;
+    transform: scale(1.02);
+}
+.d-block{
+    height: 300px;
+    width: 380px;
+    z-index: 10;
+    padding: 20px;
+    position:relative;
+    right: 548;    
+}
+
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    transition: 0.5s;
+    user-select: none;
+}
+
+.TextoCard{
+    font-size: 14px;
+    width: 340px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    color: rgb(112, 112, 113);
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.8s;
+    user-select: none;
+}
+
+
+
+@media screen and (max-width: 1260px){
+    .slProdContenedor{
+        width: 1100px;
+        height: 300px;
+         position: relative;
+         left: 60px;
+         top:730px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+     .d-block{
+        height: 300px;
+        width: 340px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+        right: 550;    
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .slProdContenedor{
+        width: 1050px;
+        height: 300px;
+         position: relative;
+         left: 60px;
+         top:700px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+}
+
+@media screen and (max-width: 1180px){
+    .slProdContenedor{
+        width: 1000px;
+        height: 300px;
+         position: relative;
+         left: 40px;
+         top:680px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+     .d-block{
+        height: 300px;
+        width: 334px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+       left: -5px;   
+    }
+    .TextoCard{
+        font-size: 14px;
+        width: 320px;
+        height: 100px;
+        position: relative;
+        top: 10px;
+        color: rgb(112, 112, 113);
+        font-family: 'Open Sans', sans-serif;
+        transition: 0.8s;
+    }
+
+}
+
+@media screen and (max-width: 1130px){
+    .slProdContenedor{
+        width: 950px;
+        height: 320px;
+         position: relative;
+         left: 50px;
+         top:650px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+     .TextoCard{
+        font-size: 14px;
+        width: 300px;
+        height: 100px;
+        position: relative;
+        top: 10px;
+        color: rgb(112, 112, 113);
+        font-family: 'Open Sans', sans-serif;
+        transition: 0.8s;
+    }
+    .d-block{
+        height: 284px;
+        width: 304px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+       left: -5px;   
+    }
+    .TextoCard{
+        font-size: 14px;
+        width: 320px;
+        height: 100px;
+        position: relative;
+        top: 10px;
+        color: rgb(112, 112, 113);
+        font-family: 'Open Sans', sans-serif;
+        transition: 0.8s;
+    }
+    #desarrolloWeb{
+        width: 250px;
+    }
+    #desarrolloApp{
+        width: 260px;
+    }
+    #textoBackEnd{
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .slProdContenedor{
+        width: 910px;
+        height: 300px;
+         position: relative;
+         left: 30px;
+         top:620px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 40px;
+    transition: 0.5s;
+}
+     .TextoCard{
+        font-size: 14px;
+        width: 280px;
+        height: 100px;
+        position: relative;
+        top: 10px;
+        color: rgb(112, 112, 113);
+        font-family: 'Open Sans', sans-serif;
+        transition: 0.8s;
+        left: 20px;
+    }
+    #backEnd{
+        position: relative;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .slProdContenedor{
+        width: 830px;
+        height: 300px;
+         position: relative;
+         left: 50px;
+         top:580px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+     .d-block{
+        height: 230px;
+        width: 260px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+        left: 0px;  
+    }
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 20px;
+    transition: 0.5s;
+}
+     .TextoCard{
+        font-size: 14px;
+        
+        height: 100px;
+        position: relative;
+        top: 10px;
+        color: rgb(112, 112, 113);
+        font-family: 'Open Sans', sans-serif;
+        transition: 0.8s;
+        left: 0px;
+       
+    }
+    #col-md-1 {
+        background-color: transparent;
+        height: 460px;
+        left: 3px;
+        transition:0.5s;
+    }
+    #col-md-1:hover {
+        background-color: rgba(44, 186, 229, 0.146);
+        height: 460px;
+        left: 3px;
+        transition:0.5s;
+       
+    }
+    #col-md-2 {
+        background-color:transparent;
+        height: 460px;
+        left: 3px;
+        transition:0.5s;
+    }
+    #col-md-2:hover {
+        background-color: rgba(209, 141, 246, 0.225);
+        height: 460px;
+        left: 3px;
+        transition:0.5s;
+       
+    }
+    #col-md-3 {
+        background-color: transparent;
+        height: 460px;
+        left: 3px;
+        transition:0.5s;
+    }
+    #col-md-3:hover {
+        background-color: rgba(44, 186, 229, 0.146);
+        height: 460px;
+        left: 3px;
+        transition:0.5s;
+       
+    }
+   
+}
+
+@media screen and (max-width: 1000px){
+    .slProdContenedor{
+        width: 850px;
+        height: 300px;
+         position: relative;
+         left: 40px;
+         top:550px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+
+     .d-block{
+        height: 230px;
+        width: 260px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+        left: 5px;    
+    }
+
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 20px;
+    transition: 0.5s;
+}
+     .TextoCard{
+        font-size: 14px;
+        width: 280px;
+        height: 100px;
+        position: relative;
+        top: 10px;
+        color: rgb(112, 112, 113);
+        font-family: 'Open Sans', sans-serif;
+        transition: 0.8s;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 960px){ /*botones bajar*/
+    .slProdContenedor{
+        width: 800px;
+        height: 300px;
+         position: relative;
+         left: 50px;
+         top:540px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+     .d-block{
+        height: 230px;
+        width: 260px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+        left: -5px;    
+    }
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 12px;
+    transition: 0.5s;
+}
+     .TextoCard{
+        font-size: 14px;
+        width: 250px;
+        height: 100px;
+        position: relative;
+        top: 10px;
+        color: rgb(112, 112, 113);
+        font-family: 'Open Sans', sans-serif;
+        transition: 0.8s;
+        left: -5px;
+    }
+}
+
+@media screen and (max-width: 909px){
+    .slProdContenedor{
+        width: 750px;
+        height: 300px;
+         position: relative;
+         left: 40px;
+         top:550px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 0px;
+    transition: 0.5s;
+}
+     .TextoCard{
+        max-width: 230px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 14px;    
+        position: relative;
+        top: 10px;
+        color: rgb(112, 112, 113);
+        font-family: 'Open Sans', sans-serif;
+        transition: 0.8s;
+        left: -2px;
+        font-size: 12.5px;
+    }
+
+
+.d-block{
+    height: 230px;
+    width: 260px;
+    z-index: 10;
+    padding: 20px;
+    position:relative;
+    left: -10px;    
+}
+
+
+#desarrolloApp{
+    font-size: 14px;
+}
+#backEnd{
+    left: -5px;
+}
+
+}
+
+@media screen and (max-width: 880px){
+    .slProdContenedor{
+        width: 710px;
+        height: 300px;
+         position: relative;
+         left: 40px;
+         top:580px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+         
+     }
+     .d-block{
+        height: 240px;
+        width: 240px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+        right: 555;    
+    }
+
+.th3{
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 20px;
+    transition: 0.5s;
+    
+}
+     .TextoCard{
+        width: 220px;
+        height: 150px;
+        position: relative;
+        top: 0px;
+        color: rgb(112, 112, 113);
+        font-family: 'Open Sans', sans-serif;
+        transition: 0.8s;
+        left: 15px;
+        font-size: 13px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        max-width: 200px;
+    }
+
+    #desarrolloWeb{
+        position: relative;
+        left: 20px;
+    }
+    #desarrolloApp{
+        width: 250px;
+        display: flex;
+    }
+    #backEnd{
+        left:10px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .slProdContenedor{
+        width: 689px;
+        height: 300px;
+         position: relative;
+         left: 30px;
+         top:550px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+
+     .th3{
+        font-size: 13px;
+        position: relative;
+        top: 10px;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 3px;
+        color: rgb(53, 53, 53);
+        left: 20px;
+        transition: 0.5s;
+        
+    }
+         .TextoCard{
+            width: 220px;
+            height: 150px;
+            position: relative;
+            top: 0px;
+            color: rgb(112, 112, 113);
+            font-family: 'Open Sans', sans-serif;
+            transition: 0.8s;
+            left: 15px;
+            font-size: 13px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            max-width: 200px;
+        }
+    
+        #desarrolloWeb{
+            position: relative;
+            left: 20px;
+        }
+        #desarrolloApp{
+            width: 250px;
+            display: flex;
+        }
+        #backEnd{
+            left:10px;
+        }
+    
+}
+
+@media screen and (max-width: 810px){
+    .slProdContenedor{
+        width: 710px;
+        height: 300px;
+         position: relative;
+         left: 20px;
+         top:500px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+
+     .th3{
+        font-size: 13px;
+        position: relative;
+        top: 10px;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 3px;
+        color: rgb(53, 53, 53);
+        left: 20px;
+        transition: 0.5s;
+        
+    }
+         .TextoCard{
+            width: 220px;
+            height: 150px;
+            position: relative;
+            top: 0px;
+            color: rgb(112, 112, 113);
+            font-family: 'Open Sans', sans-serif;
+            transition: 0.8s;
+            left: 15px;
+            font-size: 13px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            max-width: 200px;
+        }
+    
+        #desarrolloWeb{
+            position: relative;
+            left: 20px;
+        }
+        #desarrolloApp{
+            width: 250px;
+            display: flex;
+        }
+        #backEnd{
+            left:10px;
+        }
+}
+
+@media screen and (max-width: 768px){
+    .slProdContenedor{
+        
+        width: 400px;
+        height: 500px;
+         position: relative;
+         left:170px;
+         top:560px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+     .d-block{
+        height: 300px;
+        width: 380px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+       left: 10px;   
+    }
+
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 100px;
+    transition: 0.5s;
+}
+.TextoCard{
+   position:relative;
+   left: 20px;
+    
+
+}
+#col-md-1 {
+    background-color: transparent;
+    height:490px;
+    left: 3px;
+    transition:1s;
+    transform-style: preserve-3d;
+    width: 800px;
+}
+#col-md-1:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height:490px;
+    left: 3px;
+    width: 600px;
+    transition:1s;
+    border-radius: 10px;
+    transform: scale(1.02);
+}
+#col-md-2 {
+    background-color:transparent;
+    height: 490px;
+    left: 3px;
+    transition:1s;
+    width: 800px;
+    transform-style: preserve-3d;
+}
+#col-md-2:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(193, 193, 193, 0.525));
+    height: 500px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+    width: 800px;
+     transform: scale(1.02);
+}
+#col-md-3 {
+    background-color: transparent;
+    height: 490px;
+    left: 3px;
+    transition:0.5s;
+    width: 800px;
+}
+#col-md-3:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height: 490px;
+    left: 3px;
+    transition:0.5s;
+   border-radius: 10px;
+   transform-style: preserve-3d;
+    transform: scale(1.02);
+}
+
+
+    #desarrolloWeb{
+        position: relative;
+        left: 20px;
+        min-width: 400px;
+        font-size: 16px;
+    }
+    #desarrolloApp{
+        position: relative;
+        left: 10px;
+        min-width: 400px;
+        font-size: 16px;
+    }
+    #textoBackEnd{
+        position: relative;
+        left: 10px;
+        min-width: 400px;
+        font-size: 16px;
+    }
+
+    #backEnd{
+        left: 80px;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .slProdContenedor{
+        width: 400px;
+        height: 500px;
+         position: relative;
+         left:150px;
+         top:550px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+     .d-block{
+        height: 300px;
+        width: 380px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+       left: 10px;   
+    }
+
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 100px;
+    transition: 0.5s;
+}
+.TextoCard{
+   position:relative;
+   left: 20px;
+    
+
+}
+#col-md-1 {
+    background-color: transparent;
+    height:490px;
+    left: 3px;
+    transition:1s;
+    transform-style: preserve-3d;
+    
+}
+#col-md-1:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height:490px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+    transform: scale(1.02);
+}
+#col-md-2 {
+    background-color:transparent;
+    height: 490px;
+    left: 3px;
+    transition:1s;
+
+    transform-style: preserve-3d;
+}
+#col-md-2:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(193, 193, 193, 0.525));
+    height: 490px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+
+     transform: scale(1.02);
+}
+#col-md-3 {
+    background-color: transparent;
+    height: 490px;
+    left: 3px;
+    transition:0.5s;
+}
+#col-md-3:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height: 490px;
+    left: 3px;
+    transition:0.5s;
+   border-radius: 10px;
+   transform-style: preserve-3d;
+    transform: scale(1.02);
+}
+
+
+    #desarrolloWeb{
+        position: relative;
+        left: 20px;
+        min-width: 400px;
+        font-size: 16px;
+    }
+    #desarrolloApp{
+        position: relative;
+        left: 10px;
+        min-width: 400px;
+        font-size: 16px;
+    }
+    #textoBackEnd{
+        position: relative;
+        left: 10px;
+        min-width: 400px;
+        font-size: 16px;
+    }
+
+    #backEnd{
+        left: 80px;
+    }
+}
+
+@media screen and (max-width: 690px){
+    .slProdContenedor{
+        width: 400px;
+        height: 500px;
+         position: relative;
+         left:120px;
+         top:500px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+     .d-block{
+        height: 300px;
+        width: 380px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+       left: 10px;   
+    }
+
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 100px;
+    transition: 0.5s;
+}
+.TextoCard{
+   position:relative;
+   left: 20px;
+    
+
+}
+#col-md-1 {
+    background-color: transparent;
+    height:490px;
+    left: 3px;
+    transition:1s;
+    transform-style: preserve-3d;
+    
+}
+#col-md-1:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height:490px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+    transform: scale(1.02);
+}
+#col-md-2 {
+    background-color:transparent;
+    height: 490px;
+    left: 3px;
+    transition:1s;
+
+    transform-style: preserve-3d;
+}
+#col-md-2:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(193, 193, 193, 0.525));
+    height: 490px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+
+     transform: scale(1.02);
+}
+#col-md-3 {
+    background-color: transparent;
+    height: 490px;
+    left: 3px;
+    transition:0.5s;
+}
+#col-md-3:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height: 490px;
+    left: 3px;
+    transition:0.5s;
+   border-radius: 10px;
+   transform-style: preserve-3d;
+    transform: scale(1.02);
+}
+
+
+    #desarrolloWeb{
+        position: relative;
+        left: 20px;
+        min-width: 400px;
+        font-size: 16px;
+    }
+    #desarrolloApp{
+        position: relative;
+        left: 10px;
+        min-width: 400px;
+        font-size: 16px;
+    }
+    #textoBackEnd{
+        position: relative;
+        left: 10px;
+        min-width: 400px;
+        font-size: 16px;
+    }
+
+    #backEnd{
+        left: 80px;
+    }
+
+}
+
+@media screen and (max-width: 630px){
+    .slProdContenedor{
+        width: 400px;
+        height: 500px;
+         position: relative;
+         left:80px;
+         top:520px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+     .d-block{
+        height: 300px;
+        width: 380px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+       left: 10px;   
+    }
+
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 100px;
+    transition: 0.5s;
+}
+.TextoCard{
+   position:relative;
+   left: 20px;
+    
+
+}
+#col-md-1 {
+    background-color: transparent;
+    height:490px;
+    left: 3px;
+    transition:1s;
+    transform-style: preserve-3d;
+    
+}
+#col-md-1:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height:490px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+    transform: scale(1.02);
+}
+#col-md-2 {
+    background-color:transparent;
+    height: 490px;
+    left: 3px;
+    transition:1s;
+
+    transform-style: preserve-3d;
+}
+#col-md-2:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(193, 193, 193, 0.525));
+    height: 490px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+
+     transform: scale(1.02);
+}
+#col-md-3 {
+    background-color: transparent;
+    height: 490px;
+    left: 3px;
+    transition:0.5s;
+}
+#col-md-3:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height: 490px;
+    left: 3px;
+    transition:0.5s;
+   border-radius: 10px;
+   transform-style: preserve-3d;
+    transform: scale(1.02);
+}
+}
+
+@media screen and (max-width: 600px){
+    .slProdContenedor{
+        width: 400px;
+        height: 500px;
+         position: relative;
+         left:70px;
+         top:470px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+     .d-block{
+        height: 300px;
+        width: 380px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+       left: 10px;   
+    }
+
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 100px;
+    transition: 0.5s;
+}
+.TextoCard{
+   position:relative;
+   left: 20px;
+    
+
+}
+#col-md-1 {
+    background-color: transparent;
+    height:490px;
+    left: 3px;
+    transition:1s;
+    transform-style: preserve-3d;
+    
+}
+#col-md-1:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height:490px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+    transform: scale(1.02);
+}
+#col-md-2 {
+    background-color:transparent;
+    height: 490px;
+    left: 3px;
+    transition:1s;
+
+    transform-style: preserve-3d;
+}
+#col-md-2:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(193, 193, 193, 0.525));
+    height: 490px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+
+     transform: scale(1.02);
+}
+#col-md-3 {
+    background-color: transparent;
+    height: 490px;
+    left: 3px;
+    transition:0.5s;
+}
+#col-md-3:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height: 490px;
+    left: 3px;
+    transition:0.5s;
+   border-radius: 10px;
+   transform-style: preserve-3d;
+    transform: scale(1.02);
+}
+}
+
+@media screen and (max-width: 540px){
+        .slProdContenedor{
+            width: 400px;
+            height: 500px;
+             position: relative;
+             left:50px;
+             top:380px;
+             margin-left: 15px;
+             background-color: rgb(255, 255, 255);
+             transition: 0.4s;
+         }
+         .d-block{
+            height: 300px;
+            width: 380px;
+            z-index: 10;
+            padding: 20px;
+            position:relative;
+           left: 10px;   
+        }
+    
+    .th3{
+        font-size: 15px;
+        position: relative;
+        top: 10px;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 3px;
+        color: rgb(53, 53, 53);
+        left: 100px;
+        transition: 0.5s;
+    }
+    .TextoCard{
+       position:relative;
+       left: 20px;
+        
+    
+    }
+    #col-md-1 {
+        background-color: transparent;
+        height:490px;
+        left: 3px;
+        transition:1s;
+        transform-style: preserve-3d;
+        
+    }
+    #col-md-1:hover {
+        background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+        height:490px;
+        left: 3px;
+        transition:1s;
+        border-radius: 10px;
+        transform: scale(1.02);
+    }
+    #col-md-2 {
+        background-color:transparent;
+        height: 490px;
+        left: 3px;
+        transition:1s;
+    
+        transform-style: preserve-3d;
+    }
+    #col-md-2:hover {
+        background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(193, 193, 193, 0.525));
+        height: 490px;
+        left: 3px;
+        transition:1s;
+        border-radius: 10px;
+    
+         transform: scale(1.02);
+    }
+    #col-md-3 {
+        background-color: transparent;
+        height: 490px;
+        left: 3px;
+        transition:0.5s;
+    }
+    #col-md-3:hover {
+        background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+        height: 490px;
+        left: 3px;
+        transition:0.5s;
+       border-radius: 10px;
+       transform-style: preserve-3d;
+        transform: scale(1.02);
+    }
+    }
+
+@media screen and (max-width: 510px){
+    .slProdContenedor{
+        width: 400px;
+        height: 500px;
+         position: relative;
+         left:25px;
+         top:350px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+     .d-block{
+        height: 300px;
+        width: 380px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+       left: 10px;   
+    }
+
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 100px;
+    transition: 0.5s;
+}
+.TextoCard{
+   position:relative;
+   left: 20px;
+    
+
+}
+#col-md-1 {
+    background-color: transparent;
+    height:490px;
+    left: 3px;
+    transition:1s;
+    transform-style: preserve-3d;
+    
+}
+#col-md-1:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height:490px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+    transform: scale(1.02);
+}
+#col-md-2 {
+    background-color:transparent;
+    height: 490px;
+    left: 3px;
+    transition:1s;
+    position:relative;
+    top:10px;
+    transform-style: preserve-3d;
+}
+#col-md-2:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(193, 193, 193, 0.525));
+    height: 490px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+    position:relative;
+    top:10px;
+     transform: scale(1.02);
+}
+#col-md-3 {
+    background-color: transparent;
+    height: 490px;
+    left: 3px;
+    transition:0.5s;
+    position:relative;
+    top:10px;
+}
+#col-md-3:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height: 490px;
+    left: 3px;
+    transition:0.5s;
+   border-radius: 10px;
+   transform-style: preserve-3d;
+    transform: scale(1.02);
+    position:relative;
+    top:10px;
+}
+}
+@media screen and (max-width: 414px){
+    .slProdContenedor{
+        width: 400px;
+        height: 500px;
+         position: relative;
+         left:0px;
+         top:350px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+     .d-block{
+        height: 280px;
+        width: 350px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+       left: 20px;   
+    }
+
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 100px;
+    transition: 0.5s;
+}
+.TextoCard{
+   position:relative;
+   left: 20px;
+   width: 380px;
+    
+
+}
+#col-md-1 {
+    background-color: transparent;
+    height:490px;
+    left: -3px;
+    transition:1s;
+    transform-style: preserve-3d;
+    
+}
+#col-md-1:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height:490px;
+    left: -3px;
+    transition:1s;
+    border-radius: 10px;
+    transform: scale(1.02);
+}
+#col-md-2 {
+    background-color:transparent;
+    height: 490px;
+    left: -3px;
+    transition:1s;
+    position:relative;
+    top:10px;
+    transform-style: preserve-3d;
+}
+#col-md-2:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(193, 193, 193, 0.525));
+    height: 490px;
+    left: -3px;
+    transition:1s;
+    border-radius: 10px;
+    position:relative;
+    top:10px;
+     transform: scale(1.02);
+}
+#col-md-3 {
+    background-color: transparent;
+    height: 490px;
+    left: -3px;
+    transition:0.5s;
+    position:relative;
+    top:10px;
+}
+#col-md-3:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height: 490px;
+    left: 1px;
+    transition:0.5s;
+   border-radius: 10px;
+   transform-style: preserve-3d;
+    transform: scale(1.02);
+    position:relative;
+    top:10px;
+}
+}
+@media screen and (max-width: 412px){
+    .slProdContenedor{
+        width: 400px;
+        height: 500px;
+         position: relative;
+         left:0px;
+         top:350px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+     }
+     .d-block{
+        height: 280px;
+        width: 350px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+       left: 20px;   
+    }
+
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 100px;
+    transition: 0.5s;
+}
+.TextoCard{
+   position:relative;
+   left: 20px;
+   width: 380px;
+    
+
+}
+#col-md-1 {
+    background-color: transparent;
+    height:490px;
+    left: -16px;
+    transition:1s;
+    transform-style: preserve-3d;
+    
+}
+#col-md-1:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height:490px;
+    left: -16px;
+    transition:1s;
+    border-radius: 10px;
+    transform: scale(1.02);
+}
+#col-md-2 {
+    background-color:transparent;
+    height: 490px;
+    left: -16px;
+    transition:1s;
+    position:relative;
+    top:10px;
+    transform-style: preserve-3d;
+}
+#col-md-2:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(193, 193, 193, 0.525));
+    height: 490px;
+    left: -16px;
+    transition:1s;
+    border-radius: 10px;
+    position:relative;
+    top:10px;
+     transform: scale(1.02);
+}
+#col-md-3 {
+    background-color: transparent;
+    height: 490px;
+    left: -16px;
+    transition:0.5s;
+    position:relative;
+    top:10px;
+}
+#col-md-3:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height: 490px;
+    left: -16px;
+    transition:0.5s;
+   border-radius: 10px;
+   transform-style: preserve-3d;
+    transform: scale(1.02);
+    position:relative;
+    top:10px;
+}
+}
+@media screen and (max-width: 393px){
+    .slProdContenedor{
+        left:-25px;
+    }
+    .TextoCard{
+        position:relative;
+        left: 15px;
+        width: 330px;
+         
+     
+     }
+     #col-md-1 {
+        background-color: transparent;
+        height:490px;
+        left: -16px;
+        transition:1s;
+        transform-style: preserve-3d;
+        
+    }
+    #col-md-1:hover {
+        background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+        height:490px;
+        left: -5px;
+        transition:1s;
+        border-radius: 10px;
+        transform: scale(1.02);
+    }
+    #col-md-2 {
+        background-color:transparent;
+        height: 490px;
+        left: -5px;
+        transition:1s;
+        position:relative;
+        top:10px;
+        transform-style: preserve-3d;
+    }
+    #col-md-2:hover {
+        background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(193, 193, 193, 0.525));
+        height: 490px;
+        left: -5px;
+        transition:1s;
+        border-radius: 10px;
+        position:relative;
+        top:10px;
+         transform: scale(1.02);
+    }
+    #col-md-3 {
+        background-color: transparent;
+        height: 490px;
+        left: -5px;
+        transition:0.5s;
+        position:relative;
+        top:10px;
+    }
+    #col-md-3:hover {
+        background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+        height: 490px;
+        left: -5px;
+        transition:0.5s;
+       border-radius: 10px;
+       transform-style: preserve-3d;
+        transform: scale(1.02);
+        position:relative;
+        top:10px;
+    }
+    .d-block{
+        height: 300px;
+        width: 380px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+       left: 15px;   
+    }
+}
+@media screen and (max-width: 375px){
+    .slProdContenedor{
+        left:-35px;
+    }
+}
+@media screen and (max-width: 360px){
+    .slProdContenedor{
+        width: 400px;
+        height: 500px;
+         position: relative;
+         left:-40px;
+         top:350px;
+         margin-left: 15px;
+         background-color: rgb(255, 255, 255);
+         transition: 0.4s;
+         font-size: 18px;
+     }
+     .d-block{
+        height: 250px;
+        width: 330px;
+        z-index: 10;
+        padding: 20px;
+        position:relative;
+       left: 30px;   
+    }
+
+.th3{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+    left: 100px;
+    transition: 0.5s;
+}
+.TextoCard{
+   position:relative;
+   left: 10px;
+    width:330px;
+
+}
+#col-md-1 {
+    background-color: transparent;
+    height:490px;
+    left: 3px;
+    transition:1s;
+    transform-style: preserve-3d;
+    
+}
+#col-md-1:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height:490px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+    transform: scale(1.02);
+}
+#col-md-2 {
+    background-color:transparent;
+    height: 490px;
+    left: 3px;
+    transition:1s;
+    position:relative;
+    top:10px;
+    transform-style: preserve-3d;
+}
+#col-md-2:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(193, 193, 193, 0.525));
+    height: 490px;
+    left: 3px;
+    transition:1s;
+    border-radius: 10px;
+    position:relative;
+    top:10px;
+     transform: scale(1.02);
+}
+#col-md-3 {
+    background-color: transparent;
+    height: 490px;
+    left: 3px;
+    transition:0.5s;
+    position:relative;
+    top:10px;
+}
+#col-md-3:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 91, 161, 0.731), rgba(201, 203, 203, 0.463), rgba(254, 253, 253, 0.525));
+    height: 490px;
+    left: 3px;
+    transition:0.5s;
+   border-radius: 10px;
+   transform-style: preserve-3d;
+    transform: scale(1.02);
+    position:relative;
+    top:10px;
+}
+}
+
+
+
+

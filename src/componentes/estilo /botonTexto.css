@@ -1,0 +1,128 @@
+.btn-text {
+    position: relative;
+    top: -170px;
+    left: -200px;
+    width: 200px;
+    background-color: rgb(14, 10, 77);
+    color: azure;
+    transition: 0.8s;
+}
+.btn-text:hover{
+    transition: 0.5s;
+    background-color: rgb(76, 166, 244);
+    color: black;
+}
+
+
+
+@media screen and (max-width: 1080px){
+    .btn-text {
+        position: relative;
+        top: -440px;
+        left: 200px;
+        width: 200px;
+        background-color: rgb(14, 10, 77);
+        color: azure;
+        transition: 0.8s;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .btn-text {
+        position: relative;
+        top: -250px;
+        left: -380px;
+        width: 200px;
+        background-color: rgb(14, 10, 77);
+        color: azure;
+        transition: 0.8s;
+}
+}
+
+@media screen and (max-width: 770px){
+    .btn-text {
+        position: relative;
+        top: -470px;
+        left: 100px;
+        width: 200px;
+        background-color: rgb(14, 10, 77);
+        color: azure;
+        transition: 0.8s;
+}
+}
+@media screen and (max-width: 730px){
+    .btn-text {
+        position: relative;
+        top: -490px;
+        left: 100px;
+        width: 200px;
+        background-color: rgb(14, 10, 77);
+        color: azure;
+        transition: 0.8s;
+}
+}
+
+@media screen and (max-width: 690px){
+    .btn-text {
+        position: relative;
+        top: -480px;
+        left: 110px;
+        width: 200px;
+        background-color: rgb(14, 10, 77);
+        color: azure;
+        transition: 0.8s;
+}
+}
+
+
+
+@media screen and (max-width: 630px){
+    .btn-text {
+        position: relative;
+        top: -480px;
+        left: 100px;
+        width: 200px;
+        background-color: rgb(14, 10, 77);
+        color: azure;
+        transition: 0.8s;
+}
+}
+
+
+
+@media screen and (max-width: 600px){
+    .btn-text {
+        position: relative;
+        top: -480px;
+        left: 100px;
+        width: 200px;
+        background-color: rgb(14, 10, 77);
+        color: azure;
+        transition: 0.8s;
+}
+}
+
+@media screen and (max-width: 550px){
+    .btn-text {
+        position: relative;
+        top: -500px;
+        left: 100px;
+        width: 200px;
+        background-color: rgb(14, 10, 77);
+        color: azure;
+        transition: 0.8s;
+}
+}
+
+@media screen and (max-width: 510px){
+    .btn-text {
+        position: relative;
+        top:-490px;
+        left: 100px;
+        width: 200px;
+        background-color: rgb(14, 10, 77);
+        color: azure;
+        transition: 0.8s;
+}
+    
+}

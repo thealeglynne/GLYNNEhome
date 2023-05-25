@@ -1,0 +1,17 @@
+.carucelContainer{
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    left: 100px;
+   
+}
+
+.d-block{
+    filter: grayscale(90%);
+}
+
+.d-block{
+    filter: grayscale(0%);
+}
+
+

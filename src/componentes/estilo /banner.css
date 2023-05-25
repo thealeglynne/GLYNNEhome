@@ -1,0 +1,264 @@
+.banner {
+    height: 3px;
+    background-color: rgba(6, 6, 6, 0.943);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -10px;
+    color: aliceblue;
+    
+  }
+  
+  .banner__text {
+    font-size: 15spx;
+    animation: moveText 5s infinite alternate;
+    position: relative;
+    top: 3px;
+    user-select: none;
+    display: flex;
+  }
+  
+  .banner__text--show {
+    opacity: 1;
+    
+  }
+  
+  @keyframes moveText {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    50% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+    
+    100% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .banner{
+     
+      height: 3px;
+      background-color: rgba(0, 0, 0, 0.943);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: -10px;
+      color: aliceblue;
+    }
+    .banner__text {
+      font-size: 15spx;
+      animation: moveText 5s infinite alternate;
+      position: relative;
+      top: 3px;
+      user-select: none;
+      display: flex;
+      
+      transition: 1s;
+    }
+
+    .banner__text--show {
+      opacity: 1;
+      
+    }
+    
+    @keyframes moveText {
+      0% {
+        transform: translateX(-80%);
+        opacity: 0;
+      }
+      50% {
+        transform: translateX(0%);
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(80%);
+        opacity: 0;
+      }
+    }
+
+   
+  }
+
+  @media screen and (max-width: 1000px) {
+    .banner{
+     
+      height: 3px;
+      background-color: rgba(31, 60, 101, 0.943);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: -10px;
+      color: aliceblue;
+    }
+    .banner__text {
+      font-size: 15spx;
+      animation: moveText 5s infinite alternate;
+      position: relative;
+      top: 3px;
+      user-select: none;
+      display: flex;
+      right: 80px;
+      transition: 1s;
+    }
+
+    .banner__text--show {
+      opacity: 1;
+      
+    }
+    
+    @keyframes moveText {
+      0% {
+        transform: translateX(-80%);
+        opacity: 0;
+      }
+      50% {
+        transform: translateX(0%);
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(80%);
+        opacity: 0;
+      }
+    }
+
+   
+  }
+  @media screen and (max-width: 800px) {
+    .banner{
+     
+      height: 3px;
+      background-color: rgba(60, 80, 108, 0.943);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: -10px;
+      color: aliceblue;
+    }
+    .banner__text {
+      font-size: 15spx;
+      animation: moveText 5s infinite alternate;
+      position: relative;
+      top: 3px;
+      user-select: none;
+      display: flex;
+      right: 200px;
+      transition: 1s;
+    }
+
+    .banner__text--show {
+      opacity: 1;
+      
+    }
+    
+    @keyframes moveText {
+      0% {
+        transform: translateX(-80%);
+        opacity: 0;
+      }
+      50% {
+        transform: translateX(0%);
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(80%);
+        opacity: 0;
+      }
+    }
+
+   
+  }
+  @media screen and (max-width: 690px) {
+    .banner{
+     
+      height: 3px;
+      background-color: rgba(0, 0, 0, 0.943);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: -10px;
+      color: aliceblue;
+    }
+    .banner__text {
+      font-size: 15spx;
+      animation: moveText 5s infinite alternate;
+      position: relative;
+      top: 3px;
+      user-select: none;
+      display: flex;
+      right: 320px;
+      transition: 1s;
+    }
+
+    .banner__text--show {
+      opacity: 1;
+      
+    }
+    
+    @keyframes moveText {
+      0% {
+        transform: translateX(-80%);
+        opacity: 0;
+      }
+      50% {
+        transform: translateX(0%);
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(80%);
+        opacity: 0;
+      }
+    }
+
+   
+  }
+
+  @media screen and (max-width: 600px) {
+    .banner{
+     
+      height: 3px;
+      background-color: rgba(0, 0, 0, 0.943);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: -10px;
+      color: aliceblue;
+    }
+    .banner__text {
+      font-size: 15spx;
+      animation: moveText 5s infinite alternate;
+      position: relative;
+      top: 3px;
+      user-select: none;
+      display: flex;
+      right: 340px;
+      transition: 1s;
+    }
+
+    .banner__text--show {
+      opacity: 1;
+      
+    }
+    
+    @keyframes moveText {
+      0% {
+        transform: translateX(-80%);
+        opacity: 0;
+      }
+      50% {
+        transform: translateX(0%);
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(80%);
+        opacity: 0;
+      }
+    }
+
+   
+  }
+  

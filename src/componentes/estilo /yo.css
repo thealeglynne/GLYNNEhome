@@ -1,0 +1,148 @@
+.foto{
+    position:relative;
+filter:grayscale(100%);
+width: 400px;
+top:0px;
+user-select: none;
+}
+.yoContainer{
+  width: 400px;
+    position:relative;
+    top: 600px;
+    left: 50px;
+}
+
+@media screen and (max-width: 1260px){
+  .yoContainer{
+    width: 400px;
+      position:relative;
+      top: -100px;
+      left: 50px;
+      
+  }
+  .foto{
+    position:relative;
+filter:grayscale(100%);
+width: 400px;
+top:80px;
+
+}
+}
+
+@media screen and (max-width: 1020px){
+  .foto{
+    position:relative;
+filter:grayscale(100%);
+width: 400px;
+top:80px;
+
+}
+.yoContainer{
+  width: 360px;
+    position:relative;
+    top: -100px;
+    left: 10px;
+    
+}
+}
+
+@media screen and (max-width: 1000px){
+  .foto{
+    position:relative;
+filter:grayscale(100%);
+width: 360px;
+top:40px;
+
+}
+.yoContainer{
+  width: 360px;
+    position:relative;
+    top: -100px;
+    left: 0px;
+    
+}
+}
+@media screen and (max-width: 960px){
+  .foto{
+    position:relative;
+filter:grayscale(100%);
+width: 360px;
+top:40px;
+
+}
+.yoContainer{
+  width: 360px;
+    position:relative;
+    top: -100px;
+    left: 0px;
+    
+}
+}
+@media screen and (max-width: 909px){
+  .foto{
+    position:relative;
+filter:grayscale(100%);
+width: 410px;
+top:-200px;
+left:220px
+
+}
+.yoContainer{
+  width: 360px;
+    position:relative;
+    top: -100px;
+    left: 0px;
+    
+}
+}
+@media screen and (max-width: 414px){
+  .foto{
+    position:relative;
+filter:grayscale(100%);
+width: 410px;
+top:-210px;
+left:205px
+
+}
+.yoContainer{
+  width: 360px;
+    position:relative;
+    top: -100px;
+    left: 0px;
+    
+}
+}
+@media screen and (max-width: 393px){
+  .foto{
+    position:relative;
+filter:grayscale(100%);
+width: 380px;
+top:-195px;
+left:205px
+
+}
+.yoContainer{
+  width: 360px;
+    position:relative;
+    top: -100px;
+    left: 0px;
+    
+}
+}
+@media screen and (max-width: 375px){
+  .foto{
+    position:relative;
+filter:grayscale(100%);
+width: 360px;
+top:-210px;
+left:205px
+
+}
+.yoContainer{
+  width: 360px;
+    position:relative;
+    top: -100px;
+    left: 0px;
+    
+}
+}

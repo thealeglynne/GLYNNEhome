@@ -1,0 +1,130 @@
+/* Estilo de texto personalizado */
+.my-neon-text {
+    width: 300PX;
+    font-size:90px;
+    font-family: 'Instrument Sans', sans-serif;
+    color: #fff; /* Color del texto */;
+    user-select: none;
+    /* Efecto de brillo neon */
+    text-shadow: 0 0 10px #fff, 0 0 20px rgb(130, 129, 129), 0 0 30px rgb(130, 129, 129), 0 0 40px#194da2, 0 0 70px#194da2, 0 0 80px#194da2, 0 0 100px#194da2, 0 0 150px #194da2;
+    animation: neon-glow 1.5s ease-in-out infinite al#194da2;
+    position:relative;
+    top:50px;
+    z-index: 20;
+    user-select: none;
+  }
+  
+  
+
+  @media screen and (max-width: 1200px){
+    .my-neon-text {
+        width: 300PX;
+        font-size:85px;
+        font-family: 'Instrument Sans', sans-serif;
+        color: #fff; /* Color del texto */
+    ;
+        /* Efecto de brillo neon */
+        text-shadow: 0 0 10px #fff, 0 0 20px rgb(130, 129, 129), 0 0 30px rgb(130, 129, 129), 0 0 40px#194da2, 0 0 70px#194da2, 0 0 80px#194da2, 0 0 100px#194da2, 0 0 150px #194da2;
+        animation: neon-glow 1.5s ease-in-out infinite al#194da2;
+        position:relative;
+        top:20px;
+        z-index: 20;
+      }
+  }
+  @media screen and (max-width: 1180px){
+    .my-neon-text {
+        width: 300PX;
+        font-size:75px;
+        font-family: 'Instrument Sans', sans-serif;
+        color: #fff; /* Color del texto */;
+        user-select: none;
+        /* Efecto de brillo neon */
+        text-shadow: 0 0 10px #fff, 0 0 20px rgb(130, 129, 129), 0 0 30px rgb(130, 129, 129), 0 0 40px#194da2, 0 0 70px#194da2, 0 0 80px#194da2, 0 0 100px#194da2, 0 0 150px #194da2;
+        animation: neon-glow 1.5s ease-in-out infinite al#194da2;
+        position:relative;
+        top:50px;
+        z-index: 20;
+        user-select: none;
+      }
+  }
+  @media screen and (max-width: 1180px){
+    .my-neon-text {
+        width: 300PX;
+        font-size:60px;
+        font-family: 'Instrument Sans', sans-serif;
+        color: #fff; /* Color del texto */;
+        user-select: none;
+        /* Efecto de brillo neon */
+        text-shadow: 0 0 10px #fff, 0 0 20px rgb(130, 129, 129), 0 0 30px rgb(130, 129, 129), 0 0 40px#194da2, 0 0 70px#194da2, 0 0 80px#194da2, 0 0 100px#194da2, 0 0 150px #194da2;
+        animation: neon-glow 1.5s ease-in-out infinite al#194da2;
+        position:relative;
+        top:50px;
+        z-index: 20;
+        user-select: none;
+        left: 0px;
+
+      }
+  }
+  @media screen and (max-width: 909px){
+    .my-neon-text {
+        width: 280PX;
+        font-size:50px;
+        font-family: 'Instrument Sans', sans-serif;
+        color: #fff; /* Color del texto */;
+        user-select: none;
+        /* Efecto de brillo neon */
+        text-shadow: 0 0 10px #fff, 0 0 20px rgb(130, 129, 129), 0 0 30px rgb(130, 129, 129), 0 0 40px#194da2, 0 0 70px#194da2, 0 0 80px#194da2, 0 0 100px#194da2, 0 0 150px #194da2;
+        animation: neon-glow 1.5s ease-in-out infinite al#194da2;
+        position:relative;
+        top:0px;
+        z-index: 20;
+        user-select: none;
+        left: -10px;
+      }
+  }
+  @media screen and (max-width: 730px){
+    .my-neon-text {
+        width: 280PX;
+        font-size:70px;
+        font-family: 'Instrument Sans', sans-serif;
+        color: #fff; /* Color del texto */;
+        user-select: none;
+        /* Efecto de brillo neon */
+        text-shadow: 0 0 10px #fff, 0 0 20px rgb(130, 129, 129), 0 0 30px rgb(130, 129, 129), 0 0 40px#223ebd, 0 0 70px#accae5, 0 0 80px#194da2, 0 0 100px#194da2, 0 0 150px #194da2;
+        animation: neon-glow 1.5s ease-in-out infinite al#a2197da7;
+        position:relative;
+        top:0px;
+        z-index: 20;
+        user-select: none;
+        left: 100px;
+      }
+  }
+  @media screen and (max-width: 690px){
+    .my-neon-text{
+      left:40px
+    }
+    }
+    @media screen and (max-width: 600px){
+      .my-neon-text{
+        left:30px
+      }
+      }
+      @media screen and (max-width: 550px){
+        .my-neon-text{
+          left:0px;
+          font-size: 60px;
+        }
+        }
+        @media screen and (max-width: 414px){
+          .my-neon-text{
+            left:-10px;
+            font-size: 50px;
+          }
+          }
+          @media screen and (max-width: 414px){
+            .my-neon-text{
+              left:-30px;
+              font-size: 50px;
+            }
+            }
+ 

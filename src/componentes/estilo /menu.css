@@ -1,0 +1,399 @@
+.menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+}
+
+.menuDesplegable .navbar-toggler-icon {
+  width: 1.7em;
+  height: 1.5em;
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0,0,0,.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  
+}
+
+.menuDesplegable .dropdown-menu {
+  border: none;
+  box-shadow: none;
+  position: relative;
+  left: 80px;
+  width: 350px;
+  height: 600px;
+  transition-duration: 1s;
+}
+
+.menuDesplegable .dropdown-item {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 20px;
+  padding: 30px;
+  
+}
+
+.menuDesplegable .dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.menuDesplegable .dropdown-item:hover {
+  background-color: #030303;
+  color: rgb(250, 247, 247);
+}
+
+@media screen and (max-width: 1260px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 80px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+}
+
+@media screen and (max-width: 1200px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 130px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+}
+
+@media screen and (max-width: 1180px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 170px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+}
+
+@media screen and (max-width: 1130px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 220px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+}
+
+@media screen and (max-width: 1080px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 280px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+}
+
+@media screen and (max-width: 1020px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 295px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+}
+
+@media screen and (max-width: 1000px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 330px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+}
+
+@media screen and (max-width: 960px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 390px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+}
+
+@media screen and (max-width: 909px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 430px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+}
+
+@media screen and (max-width: 880px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 460px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+}
+
+@media screen and (max-width: 850px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 470px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+}
+
+@media screen and (max-width: 810px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 510px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+ 
+}
+}
+
+@media screen and (max-width: 770px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: -20px;
+  right: 560px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+}
+
+@media screen and (max-width: 730px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 600px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+}
+
+@media screen and (max-width: 690px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 640px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+.menuDesplegable .dropdown-menu {
+  border: none;
+  box-shadow: none;
+  position: relative;
+  left: 80px;
+  width: 350px;
+  height: 600px;
+  transition-duration: 0.05s;
+}
+}
+
+@media screen and (max-width: 630px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 690px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+.menuDesplegable .dropdown-menu {
+  border: none;
+  box-shadow: none;
+  position: relative;
+  left: 80px;
+  width: 300px;
+  height: 600px;
+  transition-duration: 0.05s;
+}
+}
+
+@media screen and (max-width: 600px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  left: -10;
+  right: 720px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+
+.menuDesplegable .dropdown-menu {
+  border: none;
+  box-shadow: none;
+  position: relative;
+  left: 80px;
+  width: 290px;
+  height: 600px;
+  transition-duration: 0.05s;
+}
+}
+
+@media screen and (max-width: 550px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 780px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+
+.menuDesplegable .dropdown-menu {
+  border: none;
+  box-shadow: none;
+  position: relative;
+  left: 80px;
+  width: 260px;
+  height: 600px;
+  transition-duration: 0.05s;
+}
+}
+
+
+@media screen and (max-width: 510px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 810px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+
+.menuDesplegable .dropdown-menu {
+  border: none;
+  box-shadow: none;
+  position: relative;
+  left: 80px;
+  width: 200px;
+  height: 600px;
+  transition-duration: 0.05s;
+}
+}
+@media screen and (max-width: 414px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 885px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+
+.menuDesplegable .dropdown-menu {
+  border: none;
+  box-shadow: none;
+  position: relative;
+  left: 70px;
+  width: 200px;
+  height: 600px;
+  transition-duration: 0.05s;
+}
+}
+@media screen and (max-width: 393px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 900px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+
+.menuDesplegable .dropdown-menu {
+  border: none;
+  box-shadow: none;
+  position: relative;
+  left: 70px;
+  width: 200px;
+  height: 850px;
+  transition-duration: 0.05s;
+}
+}
+@media screen and (max-width: 375px){
+  .menuDesplegable {
+  position: absolute;
+  top: 25px;
+  right: 920px;
+  justify-content: end;
+  z-index: 999;
+  transition-duration: 1.3s;
+  transition: 0.1s;
+}
+
+.menuDesplegable .dropdown-menu {
+  border: none;
+  box-shadow: none;
+  position: relative;
+  left: 70px;
+  width: 200px;
+  height: 850px;
+  transition-duration: 0.05s;
+}
+}
+
